@@ -1,0 +1,4 @@
+cycle_reps 100
+maxturn 6
+max_search_depth 2
+play_card_bonus 1

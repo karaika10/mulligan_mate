@@ -1,0 +1,22 @@
+add [num][card] [num][card]: insert cards to current deck
+    example:in 4n2 1w1 2s4(insert 4 normal 2 mana cards, 1 weak 1 mana card, 2 strong 4 mana cards)
+
+deck:  show the deck
+            
+hand [card] [card]:  solve mulligan with a given hand. the hand size must be either 3 or 4.
+    example:hand 2 s3 n5(normal 2 drop, strong 3 drop, normal 5 drop)")
+    if no letter is given, assume it's n(normal)
+
+save <filename>:  save the current deck
+load <filename>:  load deck from file
+
+demo:  demonstrate how a game is played by the program
+
+hero:  change the hero
+
+clear:  empty the deck
+
+q:  q the program
+
+
+
